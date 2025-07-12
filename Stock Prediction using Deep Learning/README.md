@@ -1,15 +1,47 @@
-### Predicting closing stock prices of FAANG companies namely Facebook,Apple,Amazon,Netflix and Google from May 2012 till March 2021 using Deep Learning models such as Long Short Term Memory (LSTM), a Basic Artificial Neural Network(CNN), Recurrent Neural Networks (RNN), Multilayer Perceptron (MLP) and Autoencoder. 
+# Stock Prediction with Deep Learning 📈
+
+Predicting FAANG (Facebook, Apple, Amazon, Netflix, Google) stock prices using various deep learning models such as LSTM, CNN, RNN, MLP, and Autoencoder.
 
 ---
-### DATA SOURCES 
-<a href="https://www.kaggle.com/aayushmishra1512/faang-complete-stock-data">FAANG 2012 - 2020 dataset </a></br>
-<a href="https://www.kaggle.com/specter7/amazon-amzn-historical-stock-price-data">FAANG 2016 - May 2021 dataset </a></br>
+
+## 🔍 Overview
+This project uses historical stock data from May 2012 to March 2021 to forecast future price trends. It explores and compares multiple deep learning architectures for time-series forecasting.
 
 ---
-### Streamlit GUI for the project can be found in the Stock-GUI-Streamlit folder
-This app has been deployed on streamlit. To view the app check the link below
 
-https://share.streamlit.io/deepthisudharsan/stock-prediction-using-deep-learning/main/Stock-GUI-Streamlit/stock_gui.py
+## 🧠 Models Implemented
+- LSTM (Long Short-Term Memory)
+- CNN (1D Convolutional Neural Network)
+- RNN (Vanilla Recurrent Neural Network)
+- MLP (Multilayer Perceptron)
+- Autoencoder
+
 ---
-### Additional Note
-The hyperparameters that we have used in our deep learning models show the best results for the Google Stock Price dataset that has been uploaded here. The code works for any csv dataset but getting the best accuracy isn't assured.
+
+## 📊 Dataset
+- Source: Yahoo Finance via `yfinance` API
+- Stocks: FB, AAPL, AMZN, NFLX, GOOG
+- Features: Open, Close, High, Low, Volume
+
+---
+
+## 🔧 Technologies Used
+- Python
+- TensorFlow / Keras
+- NumPy, Pandas
+- Scikit-learn
+- Matplotlib, Seaborn
+- yfinance (for data)
+
+---
+
+## 🧪 Evaluation Metrics
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- MAPE (Mean Absolute Percentage Error)
+
+---
+
+
+https://github.com/suganthan06/Stock-Prediction-with-Deep-Learning.git
+
